@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "SpotifyConnect.updateAfterFirstLogin(session:):SpotifyConnect.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "player">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SpotifyConnect.play(uri:):SpotifyConnect.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "lastPlayedURI">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SpotifyConnect.start(playlist:):SpotifyConnect.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "lastPlayedURI">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in SpeechRecognitionManager.start():SpeechRecognitionManager.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
