@@ -40,6 +40,6 @@ private extension SpeechRecognitionManager {
     @objc func didFinishTalk() {
         guard dictatedSpeech != "" else { return }
         audioManager.stopRecording()
-        SpotifyConnect.shared.start(playlist: dictatedSpeech)
+        SpotifyManager.shared.play(uri: dictatedSpeech)
     }
 }

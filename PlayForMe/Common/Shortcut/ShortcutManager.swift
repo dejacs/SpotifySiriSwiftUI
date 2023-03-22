@@ -9,6 +9,7 @@ import Foundation
 import Intents
 import CoreSpotlight
 import MobileCoreServices
+import UIKit
 
 @available(iOS 12.0, *)
 final class ShortcutManager {

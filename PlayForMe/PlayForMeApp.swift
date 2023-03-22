@@ -25,32 +25,35 @@ struct PlayForMeApp: App {
     }
     
     func didOpenURL(_ url: URL) {
-        SpotifyConnect.shared.onOpen(url: url)
+        SpotifyManager.shared.openedUrl(application: UIApplication.shared, url: url)
     }
     
     func play(activity: NSUserActivity) {
-        SpotifyConnect.shared.play()
+        SpotifyManager.shared.play(uri: "4qUQtsemTJFpO432Qfpx1x?si=ShjSl0GITGKlu3p-tLLfBg")
+        SpotifyManager.shared.resume()
+//        SpotifyConnect.shared.play()
     }
     
     func pause(activity: NSUserActivity) {
-        SpotifyConnect.shared.pause()
+        SpotifyManager.shared.pause()
+//        SpotifyConnect.shared.pause()
     }
     
     func next(activity: NSUserActivity) {
-        SpotifyConnect.shared.pause()
-        SpotifyConnect.shared.next()
+//        SpotifyConnect.shared.pause()
+//        SpotifyConnect.shared.next()
     }
     
     func previous(activity: NSUserActivity) {
-        SpotifyConnect.shared.pause()
-        SpotifyConnect.shared.previous()
+//        SpotifyConnect.shared.pause()
+//        SpotifyConnect.shared.previous()
     }
     
     func playlist(activity: NSUserActivity) {
-        SpeechRecognitionManager.shared.start()
+//        SpeechRecognitionManager.shared.start()
     }
     
     func shuffle(activity: NSUserActivity) {
-        SpotifyConnect.shared.enableShuffle()
+//        SpotifyConnect.shared.enableShuffle()
     }
 }

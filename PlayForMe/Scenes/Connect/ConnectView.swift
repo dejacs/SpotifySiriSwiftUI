@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ConnectView: View {
+    private let spotifyManager: SpotifyManagerProtocol = SpotifyManager.shared
+    
     var body: some View {
         VStack {
             Button(action: connect) {
@@ -48,7 +50,7 @@ struct ConnectView: View {
 
 private extension ConnectView {
     func connect() {
-        SpotifyConnect.shared.setup()
+        spotifyManager.connect()
     }
     
     func searchPlaylist() {

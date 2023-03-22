@@ -20,5 +20,500 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12C7F63A-1149-4FB6-9350-A8563C323ABA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8DF81EBA-0181-4210-B108-30DFE12009F4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "8DF81EBA-0181-4210-B108-30DFE12009F4 - f7562b8656279aea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayForMe.SpotifyConnect.start(playlist: Swift.String) -&gt; ()"
+                  moduleName = "PlayForMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jadesilveira/Projects/SpotifySiriSwiftUI/PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "304">
+               </Location>
+               <Location
+                  uuid = "8DF81EBA-0181-4210-B108-30DFE12009F4 - f7562b8656279aea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayForMe.SpotifyConnect.start(playlist: Swift.String) -&gt; ()"
+                  moduleName = "PlayForMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jadesilveira/Projects/SpotifySiriSwiftUI/PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "612">
+               </Location>
+               <Location
+                  uuid = "8DF81EBA-0181-4210-B108-30DFE12009F4 - a1b6f14d52386353"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.SPTPartialPlaylist) -&gt; Swift.Bool in PlayForMe.SpotifyConnect.start(playlist: Swift.String) -&gt; ()"
+                  moduleName = "PlayForMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jadesilveira/Projects/SpotifySiriSwiftUI/PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4383A33D-E886-4073-82B6-7BF47D5DB714"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "4383A33D-E886-4073-82B6-7BF47D5DB714 - 35b57cc2a7c535af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayForMe.SpotifyConnect.play(uri: Swift.String) -&gt; ()"
+                  moduleName = "PlayForMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jadesilveira/Projects/SpotifySiriSwiftUI/PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "4383A33D-E886-4073-82B6-7BF47D5DB714 - 35b57cc2a7c535af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayForMe.SpotifyConnect.play(uri: Swift.String) -&gt; ()"
+                  moduleName = "PlayForMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jadesilveira/Projects/SpotifySiriSwiftUI/PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "188">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27116FC5-D7EF-45A7-A736-55C493E48377"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "27116FC5-D7EF-45A7-A736-55C493E48377 - 3f29bed82ec86f0f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayForMe.SpotifyConnect.play() -&gt; ()"
+                  moduleName = "PlayForMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jadesilveira/Projects/SpotifySiriSwiftUI/PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "27116FC5-D7EF-45A7-A736-55C493E48377 - 3f29bed82ec86f0f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayForMe.SpotifyConnect.play() -&gt; ()"
+                  moduleName = "PlayForMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jadesilveira/Projects/SpotifySiriSwiftUI/PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "879F3076-4E1F-4673-8947-99BFC5CCBA34"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "879F3076-4E1F-4673-8947-99BFC5CCBA34 - db6674481cad378b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayForMe.SpotifyConnect.pause() -&gt; ()"
+                  moduleName = "PlayForMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jadesilveira/Projects/SpotifySiriSwiftUI/PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "879F3076-4E1F-4673-8947-99BFC5CCBA34 - db6674481cad378b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayForMe.SpotifyConnect.pause() -&gt; ()"
+                  moduleName = "PlayForMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jadesilveira/Projects/SpotifySiriSwiftUI/PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB03FCF7-5E51-4B00-95BB-00AE9877B9EF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "EB03FCF7-5E51-4B00-95BB-00AE9877B9EF - fbe00b22ea39fe1e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayForMe.SpotifyConnect.next() -&gt; ()"
+                  moduleName = "PlayForMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jadesilveira/Projects/SpotifySiriSwiftUI/PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "EB03FCF7-5E51-4B00-95BB-00AE9877B9EF - fbe00b22ea39fe1e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayForMe.SpotifyConnect.next() -&gt; ()"
+                  moduleName = "PlayForMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jadesilveira/Projects/SpotifySiriSwiftUI/PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "830D7E97-8543-4228-9843-D284E093E2D6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "830D7E97-8543-4228-9843-D284E093E2D6 - 3a0f8a5c7b0f59d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayForMe.SpotifyConnect.previous() -&gt; ()"
+                  moduleName = "PlayForMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jadesilveira/Projects/SpotifySiriSwiftUI/PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "830D7E97-8543-4228-9843-D284E093E2D6 - 3a0f8a5c7b0f59d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayForMe.SpotifyConnect.previous() -&gt; ()"
+                  moduleName = "PlayForMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jadesilveira/Projects/SpotifySiriSwiftUI/PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B582ED43-EE3F-4566-8ECD-3E4979B563B4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8A93109-074F-42D4-9A11-97EE3A1C0CEA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A49B5B2-F60B-40A3-8B99-745454126C56"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "1A49B5B2-F60B-40A3-8B99-745454126C56 - ca807696b0444cdd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayForMe.SpotifyConnect.fetchUserPlaylists() -&gt; ()"
+                  moduleName = "PlayForMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jadesilveira/Projects/SpotifySiriSwiftUI/PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "193"
+                  endingLineNumber = "193"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "1A49B5B2-F60B-40A3-8B99-745454126C56 - f5a6099f74faa182"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;, Swift.Optional&lt;Any&gt;) -&gt; () in PlayForMe.SpotifyConnect.fetchUserPlaylists() -&gt; ()"
+                  moduleName = "PlayForMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jadesilveira/Projects/SpotifySiriSwiftUI/PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "194"
+                  endingLineNumber = "194"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "44C51C88-4EA8-4FAA-949C-1F1F1FAF0F98"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayForMe/Common/SpotifyConnect/SpotifyConnect.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16E40F40-30AD-4E9A-A568-31CFAD72AB61"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayForMe/Common/Spotify/SpotifyManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "didFailConnectionAttemptWithError()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83915B5A-5EA3-468E-9A2E-273102B2759B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayForMe/Common/Spotify/SpotifyManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+            landmarkName = "didDisconnectWithError()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6EB114C4-CBA2-4D8F-9FD1-D6455C22DE6A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayForMe/Common/Spotify/SpotifyManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "appRemoteDidEstablishConnection(appRemote:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC43C9AE-40AF-4C3A-B26A-6275BC21EC79"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayForMe/Common/Spotify/SpotifyPlayer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "playerStateDidChange(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0B59A9A-D41E-44BC-879F-E5C009B615C6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayForMe/PlayForMeApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "play(activity:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

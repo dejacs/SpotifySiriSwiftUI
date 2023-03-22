@@ -7,8 +7,16 @@
 
 import SwiftUI
 
+protocol PlayerPresenterDelegate: AnyObject {
+    func updateViewConnectedState()
+    func updateViewDisconnectedState()
+    func updateImage(_ image: UIImage?)
+}
+
 final class PlayerPresenter: ObservableObject {
     private let interactor: PlayerInteractorInput
+    private let spotifyManager: SpotifyManagerProtocol = SpotifyManager.shared
+    
     var view: PlayerViewOutput?
     
     @Published var isPlayButton: Bool = false
@@ -31,41 +39,68 @@ final class PlayerPresenter: ObservableObject {
         isRepeatEnable ? view?.enabledRepeatButton() : view?.disabledRepeatButton()
     }
     
+    func connect() {
+        spotifyManager.connect()
+    }
+    
+    func disconnect() {
+        spotifyManager.disconnect()
+    }
+    
     func play() {
-        interactor.play()
+        spotifyManager.resume()
         isPlayButton = false
     }
     
     func pause() {
-        interactor.pause()
+        spotifyManager.pause()
         isPlayButton = true
     }
     
     func enableShuffle() {
-        interactor.enableShuffle()
-        isShuffleEnable = true
+//        interactor.enableShuffle()
+//        isShuffleEnable = true
     }
     
     func disableShuffle() {
-        interactor.disableShuffle()
-        isShuffleEnable = false
+//        interactor.disableShuffle()
+//        isShuffleEnable = false
     }
     
     func enableRepeat() {
-        interactor.enableRepeat()
-        isRepeatEnable = true
+//        interactor.enableRepeat()
+//        isRepeatEnable = true
     }
     
     func disableRepeat() {
-        interactor.disableRepeat()
-        isRepeatEnable = false
+//        interactor.disableRepeat()
+//        isRepeatEnable = false
     }
     
     func previous() {
-        interactor.previous()
+//        interactor.previous()
     }
     
     func next() {
-        interactor.next()
+//        interactor.next()
+    }
+}
+
+extension PlayerPresenter: PlayerPresenterDelegate {
+    func updateViewConnectedState() {
+//        connectButton.isHidden = true
+//        disconnectButton.isHidden = false
+//        connectLabel.isHidden = true
+//        imageView.isHidden = false
+//        trackLabel.isHidden = false
+//        pauseAndPlayButton.isHidden = false
+    }
+    
+    func updateViewDisconnectedState() {
+        
+    }
+    
+    func updateImage(_ image: UIImage?) {
+        
     }
 }
