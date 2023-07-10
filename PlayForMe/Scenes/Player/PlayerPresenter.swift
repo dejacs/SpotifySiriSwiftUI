@@ -58,31 +58,31 @@ final class PlayerPresenter: ObservableObject {
     }
     
     func enableShuffle() {
-//        interactor.enableShuffle()
-//        isShuffleEnable = true
+        interactor.enableShuffle()
+        isShuffleEnable = true
     }
     
     func disableShuffle() {
-//        interactor.disableShuffle()
-//        isShuffleEnable = false
+        interactor.disableShuffle()
+        isShuffleEnable = false
     }
     
     func enableRepeat() {
-//        interactor.enableRepeat()
-//        isRepeatEnable = true
+        interactor.enableRepeat()
+        isRepeatEnable = true
     }
     
     func disableRepeat() {
-//        interactor.disableRepeat()
-//        isRepeatEnable = false
+        interactor.disableRepeat()
+        isRepeatEnable = false
     }
     
     func previous() {
-//        interactor.previous()
+        interactor.previous()
     }
     
     func next() {
-//        interactor.next()
+        interactor.next()
     }
 }
 

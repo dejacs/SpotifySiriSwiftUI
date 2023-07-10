@@ -13,5 +13,6 @@ enum ShortcutType: String {
     case next
     case previous
     case playlist
-    case shuffle
+    case enableShuffle
+    case disableShuffle
 }

@@ -19,45 +19,45 @@ protocol PlayerInteractorInput {
 }
 
 final class PlayerInteractor {
-//    private let spotifyConnect: SpotifyConnecting
-//
-//    init(spotifyConnect: SpotifyConnecting = SpotifyConnect.shared) {
-//        self.spotifyConnect = spotifyConnect
-//    }
+    private let spotifyManager: SpotifyManagerProtocol
+
+    init(spotifyManager: SpotifyManagerProtocol = SpotifyManager.shared) {
+        self.spotifyManager = spotifyManager
+    }
 }
 
 extension PlayerInteractor: PlayerInteractorInput {
     func previous() {
-//        spotifyConnect.pause()
-//        spotifyConnect.previous()
+        spotifyManager.pause()
+        spotifyManager.previous()
     }
     
     func play() {
-//        spotifyConnect.play()
+        spotifyManager.play(uri: "")
     }
     
     func pause() {
-//        spotifyConnect.pause()
+        spotifyManager.pause()
     }
     
     func next() {
-//        spotifyConnect.pause()
-//        spotifyConnect.next()
+        spotifyManager.pause()
+        spotifyManager.next()
     }
     
     func enableShuffle() {
-//        spotifyConnect.enableShuffle()
+        spotifyManager.enableShuffle()
     }
     
     func disableShuffle() {
-//        spotifyConnect.disableShuffle()
+        spotifyManager.disableShuffle()
     }
     
     func enableRepeat() {
-//        spotifyConnect.enableRepeat()
+        spotifyManager.enableRepeat()
     }
     
     func disableRepeat() {
-//        spotifyConnect.disableRepeat()
+        spotifyManager.disableRepeat()
     }
 }

@@ -26,6 +26,12 @@ protocol SpotifyManagerProtocol {
     func play(uri: String)
     func pause()
     func resume()
+    func next()
+    func previous()
+    func enableShuffle()
+    func disableShuffle()
+    func enableRepeat()
+    func disableRepeat()
 }
 
 final class SpotifyManager {
@@ -160,7 +166,9 @@ extension SpotifyManager: SpotifyAppRemoteDelegate {
 extension SpotifyManager: SpotifySessionDelegate {
     func didInitiate(accessToken: String) {
         appRemote.connectionParameters.accessToken = accessToken
-        appRemote.connect()
+        DispatchQueue.main.async {
+            self.appRemote.connect()
+        }
     }
 }
 
@@ -192,5 +200,29 @@ extension SpotifyManager: SpotifyPlayerDelegate {
     
     func resume() {
         appRemote.playerAPI?.resume(nil)
+    }
+    
+    func next() {
+        appRemote.playerAPI?.skip(toNext: nil)
+    }
+    
+    func previous() {
+        appRemote.playerAPI?.skip(toPrevious: nil)
+    }
+    
+    func enableShuffle() {
+        appRemote.playerAPI?.setShuffle(true)
+    }
+    
+    func disableShuffle() {
+        appRemote.playerAPI?.setShuffle(false)
+    }
+    
+    func enableRepeat() {
+        appRemote.playerAPI?.setRepeatMode(.track)
+    }
+    
+    func disableRepeat() {
+        appRemote.playerAPI?.setRepeatMode(.off)
     }
 }

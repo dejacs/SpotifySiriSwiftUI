@@ -8,7 +8,7 @@
 import Foundation
 
 struct ShuffleShortcut: ShortcutModeling {
-    let type: ShortcutType = .shuffle
+    let type: ShortcutType = .enableShuffle
     let title: String = "Shuffle playlist"
     let suggestedInvocationPhrase: String = "Shuffle"
 }

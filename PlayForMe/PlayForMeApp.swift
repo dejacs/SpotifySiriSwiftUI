@@ -20,7 +20,8 @@ struct PlayForMeApp: App {
                 .onContinueUserActivity(ShortcutType.next.rawValue, perform: next)
                 .onContinueUserActivity(ShortcutType.previous.rawValue, perform: previous)
                 .onContinueUserActivity(ShortcutType.playlist.rawValue, perform: playlist)
-                .onContinueUserActivity(ShortcutType.shuffle.rawValue, perform: shuffle)
+                .onContinueUserActivity(ShortcutType.enableShuffle.rawValue, perform: enableShuffle)
+                .onContinueUserActivity(ShortcutType.disableShuffle.rawValue, perform: disableShuffle)
         }
     }
     
@@ -31,29 +32,39 @@ struct PlayForMeApp: App {
     func play(activity: NSUserActivity) {
         SpotifyManager.shared.play(uri: "4qUQtsemTJFpO432Qfpx1x?si=ShjSl0GITGKlu3p-tLLfBg")
         SpotifyManager.shared.resume()
-//        SpotifyConnect.shared.play()
     }
     
     func pause(activity: NSUserActivity) {
         SpotifyManager.shared.pause()
-//        SpotifyConnect.shared.pause()
     }
     
     func next(activity: NSUserActivity) {
-//        SpotifyConnect.shared.pause()
-//        SpotifyConnect.shared.next()
+        SpotifyManager.shared.pause()
+        SpotifyManager.shared.next()
     }
     
     func previous(activity: NSUserActivity) {
-//        SpotifyConnect.shared.pause()
-//        SpotifyConnect.shared.previous()
+        SpotifyManager.shared.pause()
+        SpotifyManager.shared.previous()
     }
     
     func playlist(activity: NSUserActivity) {
-//        SpeechRecognitionManager.shared.start()
+        SpeechRecognitionManager.shared.start()
     }
     
-    func shuffle(activity: NSUserActivity) {
-//        SpotifyConnect.shared.enableShuffle()
+    func enableShuffle(activity: NSUserActivity) {
+        SpotifyManager.shared.enableShuffle()
+    }
+    
+    func disableShuffle(activity: NSUserActivity) {
+        SpotifyManager.shared.disableShuffle()
+    }
+    
+    func enableRepeat(activity: NSUserActivity) {
+        SpotifyManager.shared.enableRepeat()
+    }
+    
+    func disableRepeat(activity: NSUserActivity) {
+        SpotifyManager.shared.disableRepeat()
     }
 }
